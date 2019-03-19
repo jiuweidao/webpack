@@ -9,10 +9,10 @@
     "build": "webpack"
   },
 ```
-##1.watch
+## 1.watch
 webpack watch 会自动跟新构建文件，但是需要浏览器重新出刷新
 
-##2.start
+## 2.start
 * start会自动跟新构建文件
 * 自动刷新浏览器
 * 需指定文件路径
@@ -22,7 +22,7 @@ webpack watch 会自动跟新构建文件，但是需要浏览器重新出刷新
  * 自己指定打包方式
  * 需指定打包文件位置     publicPath: '/'
 
-##4.build
+## 4.build
 build 打包会产生输出文件，HtmlWebpackPlugin插件会自动创建输出文件包以及相关文件
 ```javascript
 const path = require('path');
